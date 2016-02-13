@@ -10,7 +10,7 @@ public class LogLeve {
 	private static Logger  logger = LoggerFactory.getLogger(LogLeve.class);
 	
 	public static void logLeve(){
-		logger.debug("===== debug ========");
+		logger.debug("===== debug1 ========");
 		logger.info("====== info ========== ");
 		logger.warn("======= warn =========");
 		logger.error("====== error ============");
